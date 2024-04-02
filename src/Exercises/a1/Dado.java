@@ -32,7 +32,7 @@ public class Dado {
 
     public void roll() {
         Random random = new Random();
-        sideValue = random.nextInt(sides) + 1;
+        sideValue = random.nextInt(1, 7);
         System.out.println(sideValue);
     }
 

@@ -13,13 +13,13 @@ public class Main {
         dado.roll();
         dado.roll();
         dado.roll();
-        dado.setSideValue(5);
+        dado.setSideValue(8);
 
 
         dado1.roll();
         dado1.roll();
         dado1.roll();
-        dado1.setSideValue(29);
+        dado1.setSideValue(55);
 
 
     }
