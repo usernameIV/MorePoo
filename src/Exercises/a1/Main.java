@@ -10,16 +10,16 @@ public class Main {
         Dado dado = new Dado(6);
         Dado dado1 = new Dado(50);
 
-        dado.Roll();
-        dado.Roll();
-        dado.Roll();
-        dado.setSideValue(8);
+        dado.roll();
+        dado.roll();
+        dado.roll();
+        dado.setSideValue(5);
 
 
-        dado1.Roll();
-        dado1.Roll();
-        dado1.Roll();
-        dado.setSideValue(55);
+        dado1.roll();
+        dado1.roll();
+        dado1.roll();
+        dado1.setSideValue(29);
 
 
     }

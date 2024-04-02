@@ -30,9 +30,9 @@ public class Dado {
         }
     }
 
-    public void Roll() {
+    public void roll() {
         Random random = new Random();
-        sideValue = random.nextInt(6);
+        sideValue = random.nextInt(sides) + 1;
         System.out.println(sideValue);
     }
 
